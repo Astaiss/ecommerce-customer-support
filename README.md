@@ -45,7 +45,7 @@ This project is an AI-powered customer support assistant for an e-commerce platf
 ## 📥 Installation
 1. Clone the repository
 ```
-git clone https://github.com/your-username/open-ecommerce-assistant.git
+git clone https://github.com/Astaiss/ecommerce-customer-support.git
 cd open-ecommerce-assistant
 ```
 2. Create a virtual environment
@@ -131,6 +131,11 @@ Assistant: Returns and exchanges are accepted within 7-30 days of delivery, prov
 Message: Are coupon codes allowed?
 Assistant: Yes, coupon codes can be applied at checkout. Terms and conditions for each offer are displayed on the promotions page.
 ```
+
+## Resource 
+- [Langgraph](https://www.langchain.com/langgraph)
+- [Fastapi](https://fastapi.tiangolo.com/)
+- [Video Tutorial](https://www.youtube.com/watch?v=1w5cCXlh7JQ)
 
 
 ## 📄 License
