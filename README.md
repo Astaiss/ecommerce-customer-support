@@ -6,32 +6,33 @@ This project is an AI-powered customer support assistant for an e-commerce platf
 ---
 
 ## 📌 Features
-- 🔍 Message Classification: Classifies incoming messages into order, shipping, complaint, or faq.
+- **🔍 Message Classification**: Classifies incoming messages into order, shipping, complaint, or faq.
 
-- 🛍️ Order Agent: Retrieves order details based on orderId.
+- **🛍️ Order Agent**: Retrieves order details based on orderId.
 
-- 📦 Shipping Agent: Updates shipping info like address and delivery date.
+- **📦 Shipping Agent**: Updates shipping info like address and delivery date.
 
-- 😡 Complaint Agent: Logs complaints against orders and returns a unique issue token.
+- **😡 Complaint Agent**: Logs complaints against orders and returns a unique issue token.
 
-- ❓ FAQ Agent: Answers common queries using a knowledge base from a faq.txt file.
+- **❓ FAQ Agent**: Answers common queries using a knowledge base from a faq.txt file.
 
-- 🔁 LangGraph Routing: Uses LangGraph to orchestrate classification → routing → agent responses.
+- **🔁 LangGraph Routing**: Uses LangGraph to orchestrate classification → routing → agent responses.
 
-- 🧠 LLM-Powered Understanding: Utilizes Google Gemini 2.0 Flash for natural language understanding.
+- **🧠 LLM-Powered Understanding**: Utilizes Google Gemini 2.0 Flash for natural language understanding.
 
 ## 🛠️ Tech Stack
-- Backend: FastAPI
 
-- LLM: Google Gemini (via LangChain)
+- **Backend**: FastAPI
 
-- Graph Workflow: LangGraph
+- **LLM**: Google Gemini (via LangChain)
 
-- Database: MongoDB
+- **Graph Workflow**: LangGraph
 
-- Environment: Python 3.10+
+- **Database**: MongoDB
 
-- Other Tools: pydantic, requests, dotenv, bson
+- **Environment**: Python 3.10+
+
+- **Other Tools**: pydantic, requests, dotenv, bson
 
 📂 Project Structure
 ```
